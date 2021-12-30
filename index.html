@@ -7,9 +7,10 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Bellybutton Biodiversity</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel = "stylesheet" href = "static/css/styles.css">
 </head>
 
-<body>
+<body class="black-background">
 
   <div class="container">
     <div class="row">
@@ -23,21 +24,18 @@
         <div class="well">
           <h5>Test Subject ID No.:</h5>
           <select id="selDataset" onchange="optionChanged(this.value)"></select>
-          <!-- see 14.3 for "this" sytax explanation-->
-          <!-- change the classes to fit your style -->
-          <!-- double check that there are no ID's that your css will not have. make new ID's as needed -->
-          
+          <!-- see 14.3 / 14.3.10 for "this" sytax explanation-->
+          <!-- change the classes to fit your style? -->
 
-          
         </div>
-        <div class="panel panel-primary">
+        <div class="panel panel-primary black-background white-font small-padding">
           <div class="panel-heading">
             <h3 class="panel-title">Demographic Info</h3>
           </div>
           <div id="sample-metadata" class="panel-body"></div>
         </div>
       </div>
-      <div class="col-md-5">
+      <div class="col-md-10">
         <div id="bar"></div>
       </div>
       <div class="col-md-5">
@@ -54,7 +52,7 @@
   <script src="https://d3js.org/d3.v5.min.js"></script>
   <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
   <script src="./static/js/app.js"></script>
-  <script src="./static/js/bonus.js"></script>
+  <!-- <script src="./static/js/bonus.js"></script> -->
   
 </body>
 

@@ -1,0 +1,19 @@
+
+.black-background{
+    background-color: black;
+}
+
+.img-responsive {
+    max-width: 100%;
+    height: auto;
+}
+
+.darkgrey-background{
+    background-color: darkgrey;
+}
+.white-font{
+    color: white;
+}
+.small-padding {
+    padding: 2px 0px 2px 0px;
+}
